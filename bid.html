@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samiat Portfolio</title>
+    <link rel="stylesheet" href="sam.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>SANNI SAMIAT</h1>
+            <p>Hello there! Welcome to my portfolio website. I am passionate about creating innovative solutions. I'm a developer who transforms lines of codes into solutions that reshape our world, one algorithm at a time.</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-image">
+                <img src="C:\Users\USER1\OneDrive\Desktop\sam.jpg" alt="SANNI SAMIAT" width="180px">
+            </div>
+            <p> I have a strong foundation in computer science, having pursued a degree in Computer Science from Bells University of Technology, Sango-Ota, Ogun State.
+            Throughout my academic journey, I delved deep into various programming languages, algorithms, and software
+            development methodologies. Additionally, I've actively sought opportunities to apply my knowledge through internships
+            and personal projects. My passion lies in leveraging technology to create meaningful solutions that address real-world challenges. I'm
+            particularly interested in the intersection of technology and social impact, exploring how innovations in software
+            engineering can contribute to positive change in society. Outside of coding, I enjoy staying updated with the latest
+            trends in technology, attending tech meetups, and contributing to open-source projects.</p>
+            </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">HTML5</span> <progress value="80" max="100"></progress></li>
+                    <li><span class="skill-name">CSS3</span> <progress value="70" max="100"></progress></li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">Node.js</span> <progress value="75" max="100"></progress></li>
+                    <li><span class="skill-name">Python</span> <progress value="70" max="100"></progress></li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Design</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">Adobe Photoshop</span> <progress value="85" max="100"></progress></li>
+                    <li><span class="skill-name">Sketch</span> <progress value="80" max="100"></progress></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+        <div class="experience">
+            <h3>New Horizons ICT Resource Center</h3>
+            <p class="role">Software Developer</p>
+            <p class="duration">June 2021 - Present</p>
+            <p class="description"> As a software developer at New Horizons ICT Resource Center, I am responsible for designing, developing, and maintaining
+            software solutions tailored to meet the needs of our clients. Working within a dynamic team environment, I collaborate
+            with stakeholders to gather requirements, analyze technical specifications, and architect robust software systems.
+            Utilizing my expertise in programming languages and technologies, I write clean and efficient code to implement
+            innovative solutions that enhance productivity and drive business growth. Additionally, I conduct rigorous testing,
+            debugging, and optimization to ensure the reliability, performance, and security of the software products delivered.
+            Through effective communication and problem-solving skills, I contribute to the successful delivery of projects,
+            exceeding client expectations and maintaining New Horizons' reputation as a leader in the ICT industry. </p>
+        </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+        <span id="current-date"></span> 
+        <span id="current-time"></span>
+           <span> &copy All Rights Reserved. Sanni Samiat.</span>
+           </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
